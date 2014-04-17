@@ -22,4 +22,5 @@ group :test do
   gem 'turn'
   gem 'rake'
   gem 'minitest'
+  gem 'minitest-debugger'
 end
