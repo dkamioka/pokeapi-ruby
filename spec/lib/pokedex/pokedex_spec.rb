@@ -10,8 +10,10 @@ describe Pokeapi::Pokedex do
     end
 
     it "must have the base url set to the Pokeapi endpoint" do
-      Pokeapi::Pokedex.base_uri.must_equal 'http://pokeapi.co/api/v1/'
+      puts Pokeapi::Pokedex.base_uri
+      Pokeapi::Pokedex.base_uri.must_equal 'http://pokeapi.co'
     end
+
   end
  
   it "must work" do
